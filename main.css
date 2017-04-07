@@ -1,0 +1,182 @@
+/*****************************
+font-family: 'Kanit', sans-serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Forum', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Pavanam', sans-serif;
+font-family: 'Oxygen', sans-serif;
+*****************************/
+
+/*****************************
+Overall Designs
+*****************************/
+
+header {
+  height: 110px;
+}
+
+.heading nav a.selected {
+  color: #FF8362;
+}
+
+.heading a:visited {
+  color:beige;
+}
+
+.heading h1 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 2.75em;
+  text-align: left;
+  padding-left: 20px;
+  
+}
+
+.heading nav li{
+  display: inline-block;
+  margin-right: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.20em;
+}
+
+.heading ul a {
+  text-decoration: none;
+  color: beige;
+}
+
+.heading a:hover {
+  color: #FF8362;
+}
+
+
+.heading nav {
+  text-align: right;
+  color: beige;
+}
+
+.heading {
+  border-bottom-style: solid;
+  border-bottom-width: 5px; 
+  margin-top: -27px;
+  background: #6D748C;
+  color: beige;
+/*  position: fixed;*/
+  z-index: 100;
+  width: 100%;
+  
+}
+
+.main-body {
+  height: 110vh;
+  background-repeat: no-repeat;
+  background-color: #3C4663;
+  color: beige;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.body {
+  padding: 110px;
+}
+
+.footer {
+  color: #ff8362;
+  clear: both;
+  padding-top: 100px;
+  font-family: 'Kanit', sans-serif;
+}
+.footer-adoption {
+  padding-top: -100px;
+}
+
+/*****************************
+Home Page Layout
+*****************************/
+
+iframe {
+  box-shadow: 8px 8px 30px #ff8362;
+}
+
+.map {
+  float: left;
+  padding-top: 30px;
+  width: 60%;
+}
+
+.info {
+  float: right;
+  padding-top: 30px;
+  width: 35%;
+}
+
+.info p a {
+  color: #ff8362;
+}
+
+.body a {
+  color: beige;
+}
+.animals {
+  height: 310vh;
+}
+/*****************************
+  Form CSS
+*****************************/
+.form {
+font-family: 'Oxygen', sans-serif; 
+padding-top: 142px;  
+}
+.form, .review {
+ text-decoration: none;
+ padding: 125px 10px;
+ display: inline-block;
+ margin: 20px 5px;
+ vertical-align: top;
+ width: 45%;
+}
+.review {
+  margin-bottom: 3px;
+}
+/*********************
+Reviews
+*********************/
+.clancy, .glotzky, .diggle {
+  color: #1aa3ff;
+  background-color: beige;
+}
+.container {
+  padding: 140px;
+}
+/*********************
+Tables
+*********************/
+.table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+  color: #ff8362;
+}
+tr {
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+.table {
+  padding-top: 25;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
